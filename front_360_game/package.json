@@ -9,6 +9,10 @@
   "author": "filipe silva",
   "license": "ISC",
   "devDependencies": {
+    "html-loader": "^0.5.0",
     "webpack": "^3.4.1"
+  },
+  "dependencies": {
+    "angular": "^1.6.5"
   }
 }
