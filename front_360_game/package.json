@@ -1,0 +1,14 @@
+{
+  "name": "front_360_game",
+  "version": "1.0.0",
+  "description": "html 5 code for html5 360 game",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "filipe silva",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.4.1"
+  }
+}
