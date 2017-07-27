@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'channels',
     'api_360_game',
+    'front_360_game'
 ]
 
 MIDDLEWARE = [
