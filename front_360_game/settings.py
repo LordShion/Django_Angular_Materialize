@@ -1,11 +1,11 @@
-import api_360_game
+import front_360_game
 from django.conf import settings
 
 settings.TEMPLATES.append(
     {
-        'NAME': 'api_360_game',
+        'NAME': 'front_360_game',
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.dirname(api_360_game.__file__) + '/static/'],
+        'DIRS': [os.path.dirname(front_360_game.__file__) + '/static/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
