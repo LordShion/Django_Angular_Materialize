@@ -1,5 +1,6 @@
-import front_360_game
+import os
 from django.conf import settings
+import front_360_game
 
 settings.TEMPLATES.append(
     {

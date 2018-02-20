@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'channels',
     'api_360_game',
+    'front_360_game'
 ]
 
 MIDDLEWARE = [
@@ -51,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'urls'
+ROOT_URLCONF = 'html5_360_game.urls'
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
@@ -60,11 +61,6 @@ STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
-
-TEMPLATE_LOADERS = (
-    'django.template.loaders.app_directories.load_template_source',
-    'django.template.loaders.filesystem.load_template_source',
-)
 
 TEMPLATES = [
     {

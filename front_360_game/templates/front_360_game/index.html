@@ -1,6 +1,6 @@
 {% load staticfiles %}
 <!doctype html>
-<html ng-app="myApp" lang="en">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Location Structure</title>
@@ -12,7 +12,8 @@
 <body>
     {% csrf_token %}
     <div>
-
+        main page<br>
+        <img src="{% static 'images/cat.jpeg'%}">
     </div>
 </body>
 </html>

@@ -9,6 +9,6 @@
   "author": "filipe silva",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.4.1"
+    "webpack": "^3.11.0"
   }
 }

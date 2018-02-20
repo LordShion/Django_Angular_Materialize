@@ -4,4 +4,4 @@ node_modules
 *.pyc
 .directory
 .idea
-
+dist
