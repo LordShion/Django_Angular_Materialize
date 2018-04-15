@@ -1,0 +1,4 @@
+
+  <app-login *ngIf="!isLogged" (onLoggedChanged)="logged_refresh()" ></app-login>
+  <a *ngIf=isLogged class="waves-effect waves-light btn" (click)="logout()">logout</a>
+
