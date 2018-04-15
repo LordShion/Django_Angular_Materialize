@@ -50,8 +50,3 @@
 * Writing tests ( to do )
 * Code review ( to do )
 * Other guidelines ( to do )
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
