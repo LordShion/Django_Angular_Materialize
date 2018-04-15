@@ -13,7 +13,6 @@ def csrf_view(request):
 @require_POST
 def login_view(request):
     if not request.user.is_authenticated():
-        #import ipdb; ipdb.set_trace()
         request.POST = json.loads(request.body)
         username = request.POST.get('username')
         password = request.POST.get('password')
