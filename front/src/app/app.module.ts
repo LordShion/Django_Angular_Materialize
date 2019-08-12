@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MaterializeModule } from 'angular2-materialize';
+import { MaterializeModule } from '@samuelberthe/angular2-materialize';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 

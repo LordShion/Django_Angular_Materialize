@@ -10,7 +10,7 @@ import {ApiBackService} from "../services/api-back.service";
 })
 export class LoginComponent implements OnInit {
 
-  @ViewChild('form') form: NgForm;
+  @ViewChild('form',{static: false}) form: NgForm;
 
   response =  {
         'error': false,
