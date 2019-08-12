@@ -1,9 +1,9 @@
 # README #
 
 
-### Django Api + angular5 + materialize ###
+### Django Api + angular + materialize ###
 
-* Simple Django api project with angular5 front with materialize for quickstarting a project with user login and logout, in a single page webapp style
+* Simple Django api project with angular front with materialize for quickstarting a project with user login and logout, in a single page webapp style
 * version 0.1
 
 
