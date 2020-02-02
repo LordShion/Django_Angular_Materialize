@@ -16,6 +16,10 @@
     <code>pip install -r requirements.txt</code>
     
     - create and activate your virtualenv for project
+    - create db
+    
+    <code>./manage.py migrate</code>
+    
     - create a superuser
      
     <code>./manage.py createsuperuser</code>
