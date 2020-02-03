@@ -42,6 +42,8 @@
     
     <code>ng serve</code>
     
+* Running with nginx
+    - add conf/nginx/angular-django.conf to /etc/nginx/conf.d
     
 * Configuration (no real configuration for now)
 * Dependencies (requirements.txt and package.json)
