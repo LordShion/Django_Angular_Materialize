@@ -13,4 +13,7 @@ export class AppMainBarComponent implements OnInit {
   ngOnInit() {
   }
 
+  returnHomePage() {
+    window.location.href = '/';
+  }
 }
