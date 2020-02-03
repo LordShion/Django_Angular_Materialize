@@ -2,13 +2,27 @@ import os
 from django.conf import settings
 import api
 
+ALLOWED_HOSTS = (
+    'angular-django',
+    '127.0.0.1',
+    'localhost',
+    'angular-django:8080',
+    'angular-django:8000',
+    'localhost:8000',
+    '127.0.0.1:8000',
+    '127.0.0.1:8080'
+
+)
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
     #'google.com',
     #'hostname.example.com',
+    'angular-django:8080',
+    'angular-django:8000',
     'localhost:8000',
-    '127.0.0.1:8000'
+    '127.0.0.1:8000',
+    '127.0.0.1:8080'
 )
 
 CORS_ALLOW_METHODS = (

@@ -5,6 +5,6 @@
 
 export const environment = {
   production: false,
-  api_host: 'localhost',
-  api_port: '8080'
+  api_host: 'angular-django',
+  api_port: '80'
 };

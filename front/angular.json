@@ -53,7 +53,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "front-app-django:build",
-            "port": 8000
+            "port": 4201,
+            "host": "angular-django"
           },
           "configurations": {
             "production": {
