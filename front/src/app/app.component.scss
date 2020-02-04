@@ -1,18 +1,34 @@
+
 app-main-bar {
+  position: relative;
+  width: 100%;
+  background-color: red;//rgba(0, 0, 255, 0.5);
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  /*top:-70px;*/
+  z-index: 100;
+}
+app-main-bar:hover{
+  /*top:0px;*/
+}
+app-screen {
   position: absolute;
   width: 100%;
-  background-color: rgba(#fff,.2);
+  height:100%;
+  background-color: rgba(#fff,.5);
   color: white;
   margin: 0px;
   padding: 0px;
 }
 app-bottom-bar{
-  background-color: rgba(#fff,.2);
+  background-color: rgba(#fff,.5);
   width: 100%;
   height:10%;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   margin: 0px;
   padding: 0px;
   color: white;
+
 }
